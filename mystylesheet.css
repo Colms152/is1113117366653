@@ -1,5 +1,14 @@
+.flimgright {
+                float: right    
+            }
+
+body {
+    background-image: url("hpbg.jpeg");
+}
+
+
 .container {
-    width: 960px;
+    width: 75%;
     background-color: White;
     margin: 0 auto;
 }
