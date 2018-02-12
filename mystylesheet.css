@@ -1,5 +1,7 @@
 .flimgright {
-                float: right    
+                float: right; 
+                max-width: 200px
+                
             }
 
 body {
