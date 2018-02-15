@@ -1,0 +1,51 @@
+.flimgright {
+                float: right; 
+                
+                width: 35px;
+                height: 35px;
+                
+            }
+
+body {
+    background-image: url("hpbg.jpeg");
+}
+
+
+.container {
+    width: 80%;
+    background-color: White;
+    margin: 0 auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
