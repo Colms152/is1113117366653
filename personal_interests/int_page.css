@@ -26,6 +26,32 @@
     font-family: Arial, Helvetica, sans-serif;
     left: 20%;
 }
+#section1t{
+    background-image: url("france.png");
+    background-size: cover;
+    width: 60%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 20%;
+
+}
+#section2t{
+    background-image: url("italy.jpg");
+    background-size: cover;
+    width: 60%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 20%;
+}
+#section3t{
+    background-image: url("NewZeland.jpg");
+    background-size: cover;
+    width: 60%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 20%;
+    color: black;
+}
 .section{
    text-align: center;
    color: white;
