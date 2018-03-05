@@ -23,10 +23,10 @@ session_start();
                     <label for = "name">
                         <strong>  Name:</strong>
                         <br>
-                        <input type ='text' id ="name" name = "name"/>
+                        <input type ="text" id ="name" name = "name"/>
                     </label>
                     <br><br>
-                    <label for "email">
+                    <label for = "email">
                         <strong> Email:</strong>
                         <br>
                         <input type = "email" id ="email" name="email"/>

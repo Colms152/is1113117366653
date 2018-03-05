@@ -9,9 +9,9 @@
         <!---->
         <?php include("repeated_features.html") ?>
         <div class="content">
-            <h3 stlye="text-align: center;font-family:verdana;">Welcome to Colms Cloud Computing</h3>
+            <h3>Welcome to Colms Cloud Computing</h3>
             <br>
-            <p stlye="text-align: center;font-family:verdana;">Here at Cloms cloud computing we are premium vendors of several cloud computing solutions. This means you know you're getting authentic access to the solutions we offer. Please feel free to browse our about page to find out about the poducts we offer or proceed to our services store.</p>
+            <p>Here at Cloms cloud computing we are premium vendors of several cloud computing solutions. This means you know you're getting authentic access to the solutions we offer. Please feel free to browse our about page to find out about the poducts we offer or proceed to our services store.</p>
         </div>
         
     </body>
