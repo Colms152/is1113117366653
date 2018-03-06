@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- In this head section the characters are set for website in order for it to be valid as per W3C's validator--> 
         <meta charset="utf-8" />
+        <!-- Title is set for this webpage--> 
         <title>About Cloud Services</title>
+        <!--Linking to relevent style sheet for this page--> 
          <link rel="stylesheet" href="cvs.css">
     </head>
     <body>
-        <!---->
+        <!-- nav bar, header and footer called with php from a html file -->
         <?php include("repeated_features.html") ?>
+       <!-- This is a division which is styled with css as the main content section of the webpage-->
         <div class="content">
             <h3>About Cloud</h3>
             <br>

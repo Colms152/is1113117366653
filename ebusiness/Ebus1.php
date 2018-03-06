@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+       <!-- In this head section the characters are set for website in order for it to be valid as per W3C's validator--> 
       <meta charset="utf-8" />
-        <title>Select Product</title>
-         <link rel="stylesheet" href="cvs.css">
+      <!-- Title is set for this webpage--> 
+      <title>Select Product</title>
+      <!--Linking to relevent style sheet for this page-->
+      <link rel="stylesheet" href="cvs.css">
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -12,13 +15,14 @@
     </head>
     
     <body>
+      <!-- nav bar, header and footer called with php from a html file -->
        <?php include("repeated_features.html") ?>
-       
+        <!-- This is a division which is styled with css as the main content section of the webpage-->
        <div class="content">
             <h4>Select a Product</h4>
             
             <br/>
-            
+            <!--This is a form which uses php to post the details to future pages-->
             <form method="POST" action="Ebus2.php">
               
               <label for = "salesforce">
@@ -75,6 +79,7 @@
             
             
             <br/>
+            <!-- This button uses javascript to calculate the numbers-->
             <button onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
     </div> 

@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <!-- In this head section the characters are set for website in order for it to be valid as per W3C's validator--> 
         <meta charset="utf-8" />
+        <!-- Title is set for this webpage-->
         <title>Personal Details</title>
+        <!--Linking to relevent style sheet for this page-->
         <link rel="stylesheet" href="cv.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!-- Adding bootstrap-->
@@ -12,13 +15,13 @@
 
     </head>
     <body>
-        
+         <!--Here I am using a table to create a heading banner due to a conflict with my other coce and bootstrap -->
         <table class="Heading_table">
             <tr>
                 <td><h1 class="mainheading text-center text-white">IS1113 Project!</h1><h2 class="text-center text-white">Student Number; 117366653</h2></td>
             </tr>
         </table>
-        
+        <!--This is the navigation tag. Within these tags there is an unordered list which is then styled with css to make a navigation bar -->
         <nav>
            <ul class="nav nav-pills" style="background:#333">
                 <li class="nav-item"><a class="nav-link" href="../homepage.html" >Home</a></li>
@@ -36,7 +39,7 @@
             </ul>
         </nav>
         
-        
+            <!-- This block of code contains the webpage content but does not require a div tag as the styleing is done by bootstrap-->
             <br>
             <h1 class="mainheading">Work Experience</h1>
         
@@ -47,7 +50,8 @@
             <p><strong>Year:</strong>2015</p>
             
             <a href="../homepage.html" class="btn btn-dark">Home</a>
-            
+        
+        <!--This is the footer div. Within these tags all elements for the footer reside and are then styled with css -->    
         <div class="card-footer text-center" style="position:fixed; bottom:0; width:100%; background:#333;">
         <p class="text-white">Created By: Colm Sheehan (117366653)</p>
         </div>
